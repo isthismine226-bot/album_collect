@@ -94,3 +94,12 @@ h2{
     color:#000000;
 
 }
+
+@media (max-width: 600px){
+
+    .grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+    }
+
+}
