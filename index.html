@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>album collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🍀 Album Collection 🎀</h1>
+
+    <div class="filters">
+    <button class="filter-btn active"
+        onclick="filterAlbums('all', this)">
+        🎶ALL
+    </button>
+
+    <button class="filter-btn"
+        onclick="filterAlbums('day6', this)">
+        🍀DAY6
+    </button>
+
+    <button class="filter-btn"
+        onclick="filterAlbums('rescene', this)">
+        🎀RESCENE
+    </button>
+</div>
+
+    <h2>💿DAY6</h2>
+
+    <div class="grid">
+
+        <div class="card day6" id="theday">
+            <img src="images/thedayjpg.jpg">
+            <h3>The Day</h3>
+        </div>
+
+        <div class="card day6" id="daydream">
+            <img src="images/daydream.jpg">
+            <h3>Daydream</h3>
+        </div>
+
+        <div class="card day6" id="sunrise">
+            <img src="images/sunrise.jpg">
+            <h3>SUNRISE</h3>
+        </div>
+
+        <div class="card day6" id="moonrise_goldmoon">
+            <img src="images/moonrise_goldmoon.jpg">
+            <h3>MOONRISE Gold Moon ver.</h3>
+        </div>
+
+        <div class="card day6" id="moonrise_silvermoon">
+            <img src="images/moonrise_silvermoon.jpg">
+            <h3>MOONRISE Silver Moon ver.</h3>
+        </div>
+
+        <div class="card day6" id="shootme_trigger">
+            <img src="images/shootme_trigger.jpg">
+            <h3>Shoot Me:Youth Part.1 Trigger ver.</h3>
+        </div>
+
+        <div class="card day6" id="shootme_bullet">
+            <img src="images/shootme_bullet.jpg">
+            <h3>Shoot Me:Youth Part.1 Bullet ver.</h3>
+        </div>
+
+        <div class="card day6" id="rememberus_rew">
+            <img src="images/rememberus_rew.jpg">
+            <h3>Remember Us:Youth Part.2 Rew ver.</h3>
+        </div>
+
+        <div class="card day6" id="rememberus_ff">
+            <img src="images/rememberus_ff.jpg">
+            <h3>Remember Us:Youth Part.2 FF ver.</h3>
+        </div>
+
+        <div class="card day6" id="gravity_soul">
+            <img src="images/gravity_soul.jpg">
+            <h3>The Book of Us:Gavity Soul ver.</h3>
+        </div>
+
+        <div class="card day6" id="gravity_mate">
+            <img src="images/gravity_mate.jpg">
+            <h3>The Book of Us:Gavity Mate ver.</h3>
+        </div>
+
+        <div class="card day6" id="entropy_sweet">
+            <img src="images/entropy_sweet.jpg">
+            <h3>The Book of Us:Entropy Sweet ver.</h3>
+        </div>
+
+        <div class="card day6" id="entropy_chaos">
+            <img src="images/entropy_chaos.jpg">
+            <h3>The Book of Us:Entropy Chaos ver.</h3>
+        </div>
+
+        <div class="card day6" id="demon_midday">
+            <img src="images/demon_midday.jpg">
+            <h3>The Book of Us:The Demon Midday ver.</h3>
+        </div>
+
+        <div class="card day6" id="demon_midnight">
+            <img src="images/demon_midnight.jpg">
+            <h3>The Book of Us:The Demon Midnight ver.</h3>
+        </div>
+
+        <div class="card day6" id="gluon">
+            <img src="images/gluon.jpg">
+            <h3>The Book of Us:Gluon</h3>
+        </div>
+
+        <div class="card day6" id="negentropy_one&">
+            <img src="images/negentropy_one&.jpg">
+            <h3>The Book of Us:Negentropy One& ver.</h3>
+        </div>
+
+        <div class="card day6" id="negentropy_only">
+            <img src="images/negentropy_only.jpg">
+            <h3>The Book of Us:Negentropy Only ver.</h3>
+        </div>
+
+        <div class="card day6" id="rtm">
+            <img src="images/rtm.jpg">
+            <h3>Right Through Me</h3>
+        </div>
+
+        <div class="card day6" id="eternal_a">
+            <img src="images/eternal_a.jpg">
+            <h3>Eternal A ver.</h3>
+        </div>
+
+        <div class="card day6" id="eternal_b">
+            <img src="images/eternal_b.jpg">
+            <h3>Eternal B ver.</h3>
+        </div>
+
+        <div class="card day6" id="outoftheblue_delux">
+            <img src="images/outoftheblue_delux.jpg">
+            <h3>Out of the blue Delux ver.</h3>
+        </div>
+
+        <div class="card day6" id="outoftheblue_Photobook">
+            <img src="images/outoftheblue_photobook.jpg">
+            <h3>Out of the blue Standard ver.</h3>
+        </div>
+
+        <div class="card day6" id="pilmography_pt1">
+            <img src="images/pilmography_pt1.jpg">
+            <h3>Pilmography Part1</h3>
+        </div>
+
+        <div class="card day6" id="pilmography_pt2">
+            <img src="images/pilmography_pt2.jpg">
+            <h3>Pilmography Part2</h3>
+        </div>
+
+        <div class="card day6" id="pilmography_delux">
+            <img src="images/pilmo_delux.jpg">
+            <h3>Pilmography Delux ver.</h3>
+        </div>
+
+        <div class="card day6" id="lwn_photobook">
+            <img src="images/lwn_photobook.jpg">
+            <h3>Letters With Notes Photobook ver.</h3>
+        </div>
+
+        <div class="card day6" id="lwn_digipack">
+            <img src="images/lwn_digipack.jpg">
+            <h3>Letters With Notes Digipack ver.</h3>
+        </div>
+
+        <div class="card day6" id="fourevr_green">
+            <img src="images/fourever_green.jpg">
+            <h3>FOUREVER Green ver.</h3>
+        </div>
+
+        <div class="card day6" id="fourevr_brown">
+            <img src="images/fourever_brown.jpg">
+            <h3>FOUREVER Brown ver.</h3>
+        </div>
+
+        <div class="card day6" id="fourevr_nemo_green">
+            <img src="images/fourever_nemo_green.jpg">
+            <h3>FOUREVER Nemo Green ver.</h3>
+        </div>
+
+        <div class="card day6" id="fourevr_nemo_black">
+            <img src="images/fourever_nemo_black.jpg">
+            <h3>FOUREVER Nemo Black ver.</h3>
+        </div>
+
+        <div class="card day6" id="bandaid_bandaid">
+            <img src="images/bandaid_bandaid.jpg">
+            <h3>Band Aid Band Aid ver.</h3>
+        </div>
+
+        <div class="card day6" id="bandaid_rockband">
+            <img src="images/bandaid_rockband.jpg">
+            <h3>Band Aid Rock Band ver.</h3>
+        </div>
+
+        <div class="card day6" id="bandaid_nemo_bandaid">
+            <img src="images/bandaid_nemo_bandaid.jpg">
+            <h3>Band Aid nemo Band Aid ver.</h3>
+        </div>
+
+        <div class="card day6" id="bandaid_nemo_rockband">
+            <img src="images/bandaid_nemo_rockband.jpg">
+            <h3>Band Aid nemo Rock Band ver.</h3>
+        </div>
+
+        <div class="card day6" id="30_photobook">
+            <img src="images/30_photobook.jpg">
+            <h3>30 Photobook ver.</h3>
+        </div>
+
+        <div class="card day6" id="30_nemo">
+            <img src="images/30_nemo.jpg">
+            <h3>30 Nemo ver.</h3>
+        </div>
+
+        <div class="card day6" id="30_postcard">
+            <img src="images/30_postcard.jpg">
+            <h3>30 Postcard ver.</h3>
+        </div>
+
+        <div class="card day6" id="decade_sixonthedice">
+            <img src="images/decade_sixonthedice.jpg">
+            <h3>The DECADE Six on the dice ver.</h3>
+        </div>
+
+        <div class="card day6" id="decade_citydays">
+            <img src="images/decade_citydays.jpg">
+            <h3>The DECADE City days ver.</h3>
+        </div>
+
+        <div class="card day6" id="decade_nemo_sixonthedice">
+            <img src="images/decade_nemo_sixonthedice.jpg">
+            <h3>The DECADE nemo Six on the dice ver.</h3>
+        </div>
+
+        <div class="card day6" id="decade_nemo_citydays">
+            <img src="images/decade_nemo_citydays.jpg">
+            <h3>The DECADE nemo City days ver.</h3>
+        </div>
+
+        <div class="card day6" id="decade_inear">
+            <img src="images/decade_inear.jpg">
+            <h3>The DECADE In-Ear ver.</h3>
+        </div>
+
+        <div class="card day6" id="decade_idcard">
+            <img src="images/decade_idcard.jpg">
+            <h3>The DECADE MD ver.</h3>
+        </div>
+
+        <div class="card day6" id="unpiltered_underpale">
+            <img src="images/unpiltered_underpale.jpg">
+            <h3>Unpiltered Underpale ver.</h3>
+        </div>
+
+        <div class="card day6" id="unpiltered_inmonochrome">
+            <img src="images/unpiltered_inmonochrome.jpg">
+            <h3>Unpiltered In Monochrome ver.</h3>
+        </div>
+
+        <div class="card day6" id="unpiltered_nemo">
+            <img src="images/unpiltered_nemo.jpg">
+            <h3>Unpiltered Nemo ver.</h3>
+        </div>
+
+        <div class="card day6" id="unpiltered_bookpouch">
+            <img src="images/unpiltered_book.jpg">
+            <h3>Unpiltered Book Pouch ver.</h3>
+        </div>
+
+    </div>
+
+    <h2>💿RESCENE</h2>
+
+    <div class="grid">
+
+        <div class="card rescene" id="rescene_ver1">
+            <img src="images/rescene_ver1.jpg">
+            <h3>Re:Scene Photobook ver. Ver.1</h3>
+        </div>
+
+        <div class="card rescene" id="rescene_ver2">
+            <img src="images/rescene_ver2.jpg">
+            <h3>Re:Scene Photobook ver. Ver.2</h3>
+        </div>
+
+        <div class="card rescene" id="rescene_plve_ver1">
+            <img src="images/rescene_plve_ver1.jpg">
+            <h3>Re:Scene PLVE ver. Ver.1</h3>
+        </div>
+
+        <div class="card rescene" id="rescene_plve_ver2">
+            <img src="images/rescene_plve_ver2.jpg">
+            <h3>Re:Scene PLVE ver. Ver.2</h3>
+        </div>
+
+    </div>
+
+    <script>
+
+    const cards = document.querySelectorAll(".card");
+
+    cards.forEach(card => {
+
+        const saved = localStorage.getItem(card.id);
+
+        if (saved === "true") {
+            card.classList.add("collected");
+        }
+
+        card.addEventListener("click", () => {
+
+            card.classList.toggle("collected");
+
+            localStorage.setItem(
+                card.id,
+                card.classList.contains("collected")
+            );
+
+        });
+
+    });
+
+    function filterAlbums(group, button){
+
+    const cards =
+    document.querySelectorAll(".card");
+
+    cards.forEach(card => {
+
+        if(group === "all"){
+            card.style.display = "block";
+        }
+
+        else if(
+            card.classList.contains(group)
+        ){
+            card.style.display = "block";
+        }
+
+        else{
+            card.style.display = "none";
+        }
+
+    });
+
+    document
+    .querySelectorAll(".filter-btn")
+    .forEach(btn => {
+        btn.classList.remove("active");
+    });
+
+    button.classList.add("active");
+
+}
+
+
+    </script>
+
+</body>
+</html>
